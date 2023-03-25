@@ -1,1 +1,251 @@
-<!DOCTYPE html><html lang="en"> <head> <meta charset="UTF-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <link rel="stylesheet" href="style.css" /> <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" /> <title>Gustavo Duarte</title> </head> <body style="overflow-x: hidden"> <header> <!-- Navbar --> <nav class="navbar navbar-expand-lg navbar-light bg-white"> <div class="container-fluid"> <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation" > <i class="fas fa-bars"></i> </button> <div class="collapse navbar-collapse" id="navbarExample01"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item active"> <a class="nav-link" aria-current="page" target="_blank" href="https://github.com/GustavoDuartte" >GitHub</a > </li> <li class="nav-item"> <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/gustavo-duarte1/" >Linkedin</a > </li> <li class="nav-item"> <a class="nav-link" target="_blank" href="https://www.instagram.com/GustavoDuarte1810/" >Contato</a > </li> </ul> </div> </div> </nav> <!-- Navbar --> <!-- Background image --> <div class="p-5 text-center bg-image" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp'); height: 600px; background-attachment: fixed; " > <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"> <div class="d-flex justify-content-center align-items-center h-100"> <div class="text-white mei"> <img src="./assets/eu hoje.jpg" alt="" /> <h1 class="mb-3">Gustavo Duarte</h1> <h4 class="mb-3">Jr. Developer</h4> <a class="btn btn-outline-light btn-lg" href="#aboutme" role="button" >See More</a > </div> </div> </div> </div> <!-- Background image --> </header> <div class="divisora"></div> <section id="aboutme"> <div class="text-center bg-image" style=" background-image: url('https://images6.alphacoders.com/109/1090061.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height: 600px; " > <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"> <div class="d-flex justify-content-center align-items-center h-100"> <div class="text-white mei"> <h1 class="mb-3">About Me</h1> <!-- Button trigger modal --> <button type="button" class="btn btn-outline-light btn-lg" data-mdb-toggle="modal" data-mdb-target="#exampleModal" > See More </button> <!-- Modal --> <div class="modal fade mod" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" > <div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <h5 class="modal-title" id="exampleModalLabel"> About Me </h5> <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close" ></button> </div> <div class="modal-body"> <div class="card"> My full name is Gustavo Gonçalves Duarte Da Silva, i am 19 years old. I live in jaguariuna-SP-BR, with my sister and my brother-in-law. I like to study more about developing and play some games in my free time. To my future i want to work developing and grow up my proffesional and my personal perfil. </div> </div> </div> </div> </div> </div> </div> </div> </div> </section> <div class="divisora"></div> <div class="text-center bg-image" style=" background-image: url('https://previews.123rf.com/images/theonerus/theonerus1904/theonerus190400047/121070170-engineering-background-construction-drawings-of-buildings-and-structures-for-the-project.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height: 600px; " > <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"> <section class="container"> <h1 id="projects">My Projects</h1> <div class="card-container"> <div class="cardi"> <div class="card-wrapper"> <h2>CRUD Clinic</h2> <p>Know About</p> </div> </div> <div class="card-text"> It is a project to demonstration. A site made for a employee to register new pacients, doctors, specialties and appointments. That register in the database made with MariaDB, linked with back-end that i used node.js </div> </div> </section> </div> </div> <div class="divisora"></div> <footer> <footer class="bg-light text-center text-lg-start"> <!-- Copyright --> <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.8)" > © 2023 Copyright: <a class="text-white" target="_blank" href="https://github.com/GustavoDuartte" >Gustavo Duarte</a > </div> <!-- Copyright --> </footer> </footer> </body> <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js" ></script></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <title>Gustavo Duarte</title>
+  </head>
+  <body style="overflow-x: hidden">
+    <header>
+      <div class="checkbox-container">
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="toggle" />
+          <label class="checkbox" for="toggle">
+            <div class="trace"></div>
+            <div class="trace"></div>
+            <div class="trace"></div>
+          </label>
+
+          <aside class="menu-itens">
+            <div class="dentro">
+              <img src="./assets/git.png" />
+              <a href="https://github.com/GustavoDuartte">
+                <p>GitHub</p>
+              </a>
+            </div>
+            <div class="dentro">
+              <img src="./assets/linkedin.png" />
+              <a href="https://www.linkedin.com/in/gustavo-duarte1/">
+                <p>Linkedin</p>
+              </a>
+            </div>
+            <div class="dentro">
+              <img src="./assets/contato.png" />
+              <a href="https://www.instagram.com/GustavoDuarte1810/">
+                <p>Contato</p>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top navi">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  target="_blank"
+                  href="https://github.com/GustavoDuartte"
+                  >GitHub</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/gustavo-duarte1/"
+                  >Linkedin</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://www.instagram.com/GustavoDuarte1810/"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+          height: 600px;
+          margin-top: 58px;
+          background-attachment: fixed;
+        "
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <img class="eumesmo" src="./assets/eu hoje.jpg" alt="" />
+              <h1 class="mb-3">Gustavo Duarte</h1>
+              <h4 class="mb-3">Jr. Developer</h4>
+              <a
+                class="btn btn-outline-light btn-lg"
+                href="#aboutme"
+                role="button"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+    <div class="divisora"></div>
+    <section id="aboutme">
+      <div
+        class="text-center bg-image"
+        style="
+          background-image: url('https://images6.alphacoders.com/109/1090061.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          height: 600px;
+        "
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white mei">
+              <h1 class="mb-3">About Me</h1>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-light btn-lg"
+                data-mdb-toggle="modal"
+                data-mdb-target="#exampleModal"
+              >
+                See More
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade mod"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        About Me
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-mdb-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="card">
+                        My full name is Gustavo Gonçalves Duarte Da Silva, i am
+                        19 years old. I live in jaguariuna-SP-BR, with my sister
+                        and my brother-in-law. I like to study more about
+                        developing and play some games in my free time. To my
+                        future i want to work developing and grow up my
+                        proffesional and my personal perfil.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="divisora"></div>
+    <div
+      class="text-center bg-image"
+      style="
+        background-image: url('https://previews.123rf.com/images/theonerus/theonerus1904/theonerus190400047/121070170-engineering-background-construction-drawings-of-buildings-and-structures-for-the-project.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 600px;
+      "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+        <h1 class="projetos">My Projects</h1>
+        <section id="projecto">
+          <div class="card cardi">
+            <div
+              class="bg-image hover-overlay ripple"
+              data-mdb-ripple-color="light"
+            >
+              <img src="./assets/Screenshot_1.png" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">CRUD Clinic</h5>
+              <p class="card-text">
+                It is a project to demonstration. A site made for a employee to
+                register new pacients, doctors, specialties and appointments.
+                That register in the database made with MariaDB, linked with
+                back-end that i used node.js
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="divisora"></div>
+    <footer>
+      <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.8)"
+        >
+          © 2023 Copyright:
+          <a
+            class="text-white"
+            target="_blank"
+            href="https://github.com/GustavoDuartte"
+            >Gustavo Duarte</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </footer>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+  ></script>
+</html>
